@@ -1,0 +1,16 @@
+{
+  "name": "animated-icons-card",
+  "version": "2026.03.24.0",
+  "description": "A wrapper card that adds animated icons to any Home Assistant dashboard card",
+  "main": "animated-icons-card.js",
+  "keywords": [
+    "home-assistant",
+    "lovelace",
+    "hacs",
+    "custom-card",
+    "animated-icons"
+  ],
+  "author": "Sharon",
+  "license": "MIT",
+  "private": true
+}
