@@ -4,6 +4,8 @@ A wrapper card that adds **animated icons** to any Home Assistant dashboard card
 
 Works with Mushroom cards, Tile cards, Entity cards, and any card that renders icons. Supports MDI, hass-hue-icons, and custom-brand-icons.
 
+![Animated Icons Card](https://via.placeholder.com/800x400?text=Screenshot+Coming+Soon)
+
 ## Features
 
 - **Visual editor** — dropdowns for animation type, speed, and trigger condition
