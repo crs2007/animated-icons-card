@@ -1,5 +1,11 @@
 # Animated Icons Card for Home Assistant
 
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://github.com/hacs/integration)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/crs2007/animated-icons-card?style=for-the-badge)
+![GitHub Release Date](https://img.shields.io/github/release-date/crs2007/animated-icons-card?style=for-the-badge)
+![License](https://img.shields.io/github/license/crs2007/animated-icons-card?style=for-the-badge)
+![HA Version](https://img.shields.io/badge/HA-2023.4%2B-blue?style=for-the-badge&logo=homeassistant)
+
 A wrapper card that adds **animated icons** to any Home Assistant dashboard card — with a **visual editor** (no YAML needed).
 
 Works with Mushroom cards, Tile cards, Entity cards, and any card that renders icons. Supports MDI, hass-hue-icons, and custom-brand-icons.
@@ -29,6 +35,8 @@ Works with Mushroom cards, Tile cards, Entity cards, and any card that renders i
    - Type: JavaScript Module
 
 ### HACS (Custom Repository)
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=crs2007&repository=animated-icons-card&category=plugin)
 
 1. In HACS, go to Frontend
 2. Click ⋮ → Custom repositories
