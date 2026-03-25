@@ -25,7 +25,7 @@
  *   trigger_entity: sensor.x # optional: use a different entity for trigger evaluation
  */
 
-const CARD_VERSION = '2026.03.24.0';
+const CARD_VERSION = '2026.03.24.1';
 const CARD_NAME = 'animated-icons-card';
 const EDITOR_NAME = 'animated-icons-card-editor';
 
@@ -461,6 +461,8 @@ class AnimatedIconsCard extends HTMLElement {
         icon.style.cssText = icon.style.cssText.replace(/animation:[^;]*;?/g, '');
       });
       if (el.shadowRoot) {
+        const injectedStyle = el.shadowRoot.querySelector('#aic-inject');
+        if (injectedStyle) injectedStyle.remove();
         const shadowIcons = el.shadowRoot.querySelectorAll('ha-icon, ha-state-icon, ha-svg-icon');
         shadowIcons.forEach(icon => {
           icon.style.cssText = icon.style.cssText.replace(/animation:[^;]*;?/g, '');
